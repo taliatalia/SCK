@@ -9,8 +9,17 @@
         <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Montserrat%7CInconsolata:400,700%7CPathway+Gothic+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat%7CInconsolata:400,700%7CPathway+Gothic+One%7CPacifico:400' rel='stylesheet' type='text/css'>
+        
+        <style>
+            .overlay:before {
+                background: #333333;
+                opacity:.2;
+            }
+        </style>
+        
     </head>
+    
     <body>
         <div class="nav-container">
             <a id="top"></a>
@@ -53,7 +62,20 @@
                         <div class="row">
                             <div class="col-sm-12 text-center">
                                 <a href="index">
-                                    <img alt="Logo" class="logo" src="img/logo-light.png" />
+                                   
+                    
+                                      <img style="width: 100px; max-height: 1000px; filter: drop-shadow(5px 5px 22px black); filter:brightness(50)" alt="Logo" class="logo" src="img/logo-light.png" />
+                                    
+                                    <h1 style="font-family: Pacifico;padding-top: 24px;weight:900; filter: drop-shadow(5px 5px 4px black);">Smurf's Country Kitchen</h1>
+                                    
+                                  
+                                    
+                                    <h4 style="padding-top: 32px; ">Meet Shushwap's hidden gem, a cozy place to relax where the food is always good!</h4>
+                                    
+                                      <div class="ribbon" style="margin-top:32px">
+                                <h6 class="uppercase mb0">Dine-in, take-out, catering & cakes</h6>
+                            </div>
+                                    
                                 </a>
                             </div>
                         </div>
@@ -77,40 +99,25 @@
                                         <a href="#about" class="inner-link">About</a>
                                     </li>
                                     <li>
+                                        <a href="#gallery" class="inner-link">Gallery</a>
+                                    </li>
+                                    <li>
                                         <a href="#menu" class="inner-link">Menu</a>
                                     </li>
+                                   
+                                    
                                     <li>
-                                        <a href="#special" class="inner-link">Special</a>
+                                        <div class="divider hidden-xs"></div>
                                     </li>
+                                    
                                     <li>
-                                        <a href="#gallery" class="inner-link">Gallery</a>
+                                        <a href="#order" class="inner-link">Order a Cake</a>
                                     </li>
                                     <li>
                                         <a href="#contact" class="inner-link">Contact</a>
                                     </li>
-                                    <li>
-                                        <div class="divider hidden-xs"></div>
-                                    </li>
-                                    <li class="has-dropdown">
-                                        <a href="#">Demos</a>
-                                        <ul class="text-left">
-                                            <li>
-                                                <a href="index.html">Classic</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-contact-form.html">w/ Form</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-instagram.html">Instagram</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-fullwidth.html">Wide Header</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="news">News</a>
-                                    </li>
+                                    
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -127,35 +134,67 @@
             <a id="about"></a>
             <section class="pb0">
                 <div class="container">
+                    
                     <div class="row  mb64 mb-xs-40">
                         <div class="col-sm-12 text-center">
                             <div class="ribbon">
-                                <h6 class="uppercase mb0">Meet Padre</h6>
+                                <h6 class="uppercase mb0">About</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--end of row-->
+                    <div class="row mb64 mb-xs-40">
+                        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <h2>Welcome to <strong>Smurf's Country Kitchen</strong></h2>
+                            <h4>
+                                        At Smurfs we offer homemade food. Are primary goal is that when you leave your Full and Happy.</h4>
+                            <p>
+                                Tucked away amongst the beautiful mountains of the Shushwap, Smurf's Country Kitchen is a must-visit for those in search of both a delicious meal and a friendly face. Treat yourself to a cozy dining experience, where you get to relax, get that much needed bite to eat, and feel right at home.
+                            </p>
+                            <p>
+                               Every meal is made with care. Satisfy that burger lover within you, try a tasty homemade sandwhich, or pop in early for a classic breakfast spread. Whether you're a curious traveler looking for that special spot, or a peckish local looking to try something new - you won't regret your visit!
+                            </p>
+                            
+                            <p><a href="https://www.facebook.com/Smurfs-Country-Kitchen-1632952796851451/?ref=page_internal" target="_blank" >View our latest hours and updates on Facebook.</a></p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    
+                    <!--end of row-->
+                    
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+            <a id="gallery"></a>
+            <section class="pb0 mb0" >
+                <div class="container">
+                    
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon">
+                                <h6 class="uppercase mb0">Gallery</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row image-row">
+                        <div class="col-sm-4">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" src="img/Front2_1.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-sm-8" >
+                            <div class="background-image-holder">
+                                <img alt="Background Image" src="img/inside2.jpg" />
                             </div>
                         </div>
                     </div>
                     <!--end of row-->
-                    <div class="row mb64 mb-xs-40">
-                        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                            <p>
-                                From ambitious Melbourne locals Marc Bailey and Sarah Hocking comes Padre - An adventure in meticulously crafted, locally sourced dishes coupled with artisan espresso from award-winning barista Nicholas Hoppner.
-                            </p>
-                            <p>
-                                Padre's offering is simple: uncomplicated seasonal fare presented in a light-filled, contemporary space. Join the morning rush or swing by later for a cheeky bite - you new local awaits.
-                            </p>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row mb64 mb-xs-24">
-                        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
-                            <p class="alt-font mb8">
-                                "Instead of treading the same old smashed avocado route, Padre are forging a bold new direction in cafe fare"
-                            </p>
-                            <span class="sub">Jon Hopkins - The Age</span>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row">
+                    
+                    <div class="row" style="padding-top: 64px; padding-bottom: 64px;;">
                         <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
                             <p class="alt-font mb8">
                                 "Melbourne's competitive inner south-east proves itself yet again as a creative hotbed for the culinary curious"
@@ -163,25 +202,7 @@
                             <span class="sub">Katie Marsh - Broadsheet</span>
                         </div>
                     </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-            <section class="pb0 mb0" >
-                <div class="container">
-                    <div class="row image-row">
-                        <div class="col-sm-4">
-                            <div class="background-image-holder">
-                                <img alt="Background Image" src="img/Front2_1.jpg" />
-                            </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="background-image-holder">
-                                <img alt="Background Image" src="img/inside2.jpg" />
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
+                    
                 </div>
                 <!--end of container-->
             </section>
@@ -198,6 +219,9 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <h2 style="padding-bottom: 32px;">Our menu is subject to availability. For the most recent posted menu, <a href="https://www.facebook.com/Smurfs-Country-Kitchen-1632952796851451/menu" target="_blank">click here.</a><br></h2>
+                    
                     <!--end of row-->
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 col-sm-12">
@@ -410,48 +434,41 @@
                 <!--end of container-->
             </section>
             <a id="special"></a>
-            <section class="pb0">
+            
+            
+            <section class="pb0 mb0" >
                 <div class="container">
-                    <div class="row  mb64 mb-xs-40">
-                        <div class="col-sm-12 text-center">
-                            <div class="ribbon">
-                                <h6 class="uppercase mb0">Smurfs Cafe Speciality</h6>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!--end of row-->
-                    <div class="row mb32 mb-xs-24">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <img alt="Special" src="img/special.jpg" />
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-md-7 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                            <h2 class="alt-font">Spanner Crab
-                                <br /> salad with raw shaved
-                                <br />vegetables</h2>
-                            <p class="mb0">
-                                with kale, broccoli flowerette, spiced pumpkin, barley,
-                                <br class="hidden-sm hidden-xs" /> green chilli & pepitas on house made life bread with light
-                                <br class="hidden-sm hidden-xs" /> cottage cheese & free range eggs.
-                            </p>
-                            <span class="block">18</span>
-                        </div>
-                    </div>
                 </div>
                 <!--end of container-->
             </section>
-            <a id="gallery"></a>
+            
+            
+            <a id="order"></a>
             <section class="pb0">
                 <div class="container">
-                    <div class="row  mb64 mb-xs-40">
+                     <div class="row  mb64 mb-xs-40">
                         <div class="col-sm-12 text-center">
                             <div class="ribbon">
                                 <h6 class="uppercase mb0">Order a Cake</h6>
+                                
+                                
+                            </div>
+                            <h1 style="color: #222222"><br>Want a delicious cake like this?<br><a href="" target="_blank">Order now.</a></h1>
+                        </div>
+                    </div>
+                    
+                    <div class="row image-row">
+
+                        <div class="col-sm-12">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" src="img/makeacake.jpg" />
                             </div>
                         </div>
                     </div>
+                    
+                   
                     <!--end of row-->
                     <div class="row">
                         <div class="col-sm-12">
@@ -474,19 +491,20 @@
                             </div>
                         </div>
                     </div>
+                   
+              
                     <!--end of row-->
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="map-holder pt120 pb120">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.121984001123!2d145.0235861!3d-37.85743610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669dc39fbb751%3A0xb2a59762c7eba3be!2s42+Orchard+St%2C+Armadale+VIC+3143!5e0!3m2!1sen!2sau!4v1435621344428"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7063.162742254183!2d-118.93484776421501!3d51.25213227698468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537f2e591adf1af1%3A0xb1d47030766eb564!2sNittel%20Rd%2C%20British%20Columbia%20V0E%202J0!5e0!3m2!1sen!2sca!4v1634023922205!5m2!1sen!2sca"></iframe>
                                 <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 contact-details">
                                     <div class="pt80 pb56 bg-white p32 overflow-hidden">
                                         <div class="col-sm-10 col-sm-offset-1">
                                             <p>
-                                                <strong>Open Wednesday - Sunday from 9am - 4pm, Except Friday from 9am - 7pm</strong>
-                                                <br /> Drop by for a coffee or bite to eat,
-                                                <br /> for larger groups call ahead to
-                                                <br /> make a reservation.
+                                                <strong>
+                                                <br /> Drop by for a bite to eat. 😊</strong>
+                                               
                                             </p>
                                             <p>
                                                 1531 Nittel Rd, Seymour Arm
@@ -496,6 +514,7 @@
                                                 Phone: 250-833-6377
                                                 <br> <a href="https://www.facebook.com/Smurfs-Country-Kitchen-1632952796851451"></a>
                                             </p>
+                                            <p>For the most recent posted menu and hours <a href="https://www.facebook.com/Smurfs-Country-Kitchen-1632952796851451/" target="_blank">click here.</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -512,38 +531,13 @@
             <footer class="bg-primary pt120 pb120 pt-xs-40 pb-xs-64">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 mb-xs-24 text-center-xs">
+                        <div class="col-sm-12 mb-xs-24 text-center-xs" style="text-align: center">
                             <div class="inline-block center">
-                                <img alt="Logo" class="image-small display-block center mb-xs-24" src="img/footer-logo.png" />
+                                <center><img alt="Logo" style="filter: brightness(50)" class="image-small display-block center mb-xs-24" src="img/logo-light.png" /></center>
                             </div>
-                            <div class="inline-block display-block-xs text-center-xs">
-                                <h6 class="uppercase mb16">Padre Food Co.</h6>
-                                <span class="sub display-block">1531 Nittel Rd, Seymour Arm, BC</span>
-                                <span class="sub display-block">Open Wednesday - Sunday: 9am - 4pm 
-                                </span>
-                                <span class="sub display-block" style="padding-left: 35px"> Except Friday: 9am - 7pm </span>
-                            </div>
+                            
                         </div>
-                        <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2 text-center">
-                            <h6 class="uppercase">Follow Us</h6>
-                            <ul class="list-inline social-list">
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/Smurfs-Country-Kitchen-1632952796851451">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <!--end of row-->
                 </div>
